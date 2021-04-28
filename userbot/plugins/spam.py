@@ -48,8 +48,8 @@ async def bigspam(hell):
             )
 
 
-@bot.on(admin_cmd("dspam (.*)"))
-@bot.on(sudo_cmd(pattern="dspam (.*)", allow_sudo=True))
+@bot.on(admin_cmd("spamm (.*)"))
+@bot.on(sudo_cmd(pattern="spamm (.*)", allow_sudo=True))
 async def spammer(e):
     if e.fwd_from:
         return
